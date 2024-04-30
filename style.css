@@ -54,3 +54,29 @@ backdrop-filter: blur(10.8px);
     transform: rotate(360deg);
   }
 }
+
+@media screen and (min-width: 980px) {
+  .animation{
+    animation: none;
+  }
+
+  .carousel-item {
+    img{
+      margin-inline:40%;
+    }   
+  }
+
+  header{
+    img{
+      width: 15vh;
+    }
+  }
+
+  .carousel-item{
+
+    .img-fluid{
+      min-height: 100%;
+      width: auto;
+    }
+  }
+}
