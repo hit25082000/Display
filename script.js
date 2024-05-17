@@ -5,3 +5,8 @@ var projetos = [
   "https://hit25082000.github.io/Snake-Js/",
   "https://hit25082000.github.io/Infortechlado/"
 ]
+
+function toggle(){
+  document.querySelector("#wrapper").classList.toggle("toggled");
+}
+
