@@ -7,6 +7,10 @@ backdrop-filter: blur(10.8px);
 -webkit-backdrop-filter: blur(10.8px);
 }
 
+.botao-check{
+  display: none;
+}
+
 .hamburgNav{
   display: block;
 }
@@ -87,10 +91,9 @@ backdrop-filter: blur(10.8px);
     img{
       width: 15vh;
     }
-  }
+  } 
 
   .carousel-item{
-
     .img-fluid{
       min-height: 100%;
       width: auto;
@@ -123,8 +126,6 @@ backdrop-filter: blur(10.8px);
     height: 300px;
   }
 }
-
-
 /* Toggle Styles */
 
 #wrapper {
