@@ -16,9 +16,9 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
-<body>
+<body id="page-content-wrapper">
   <header class="d-flex align-items-center py-1 sticky-top border-bottom justify-content-around navbar-fixed-top"  role="navigation">
-      <a href="/" class="pt-1 d-flex justify-content-center logoNav" style="flex: 1;">      
+      <a href="#" class="pt-1 d-flex justify-content-center logoNav" style="flex: 1;">      
         <img width="150" fetchpriority="high" decoding="async" src="images/Logo.png" 
         class="img-fluid " alt="Logo empresa Triunfo Digital">    
       </a>
@@ -52,14 +52,15 @@
     <div class="container-fluid">
   <div id="sidebar-wrapper">
       <ul class="sidebar-nav">          
-          <li class="sidebar-brand border-bottom"><a href="#" class="navbar-brand nav-link px-2 link-secondary">Home</a></li>
+          <li class="sidebar-brand border-bottom">
+            <a href="#" onclick="toggle()" class="navbar-brand nav-link px-2 link-secondary">Home</a></li>
             <li><a href="#about" onclick="toggle()" class="border-bottom nav-link px-2">Sobre nos</a></li>
             <li><a href="#project" onclick="toggle()"  class="border-bottom nav-link px-2">Projetos</a></li>
             <li><a href="#contact" onclick="toggle()"  class="border-bottom nav-link px-2">Contatos</a></li>
       </ul>
   </div>
    
-  <main id="page-content-wrapper">  
+  <main >  
     <section class="d-flex justify-content-center">
       <article class="scroll-margin justify-content-center mb-4 col-lg-6  mb-4 text-center d-flex flex-column  justify-content-center">
             <div class="">
@@ -396,8 +397,8 @@
               <i class="bi bi-envelope"></i>
                         </div>
             <h3 class="fs-2 text-body-emphasis">Email</h3>
-            <a href="https://www.instagram.com/triunfo_digital_cg/" class="icon-link">
-              @triunfo_digital_cg
+            <a href="mailto:triunfodigitalcg@hotmail.com" class="icon-link">
+              triunfodigitalcg@gmail.com
             </a>
           </div>
         </div>
