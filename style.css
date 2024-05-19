@@ -65,6 +65,10 @@ backdrop-filter: blur(10.8px);
   animation: rotate 1s linear infinite;
 }
 
+.btnHeader{
+  display: none !important;  
+}
+
 @keyframes rotate {
   to {
     transform: rotate(360deg);
@@ -92,6 +96,10 @@ backdrop-filter: blur(10.8px);
       width: 15vh;
     }
   } 
+
+  .btnHeader{
+    display: flex !important;  
+  }
 
   .carousel-item{
     .img-fluid{
